@@ -1,8 +1,8 @@
 ### dhMovies_NODEJS
 NodeJS/Express/Sequelize
 
-#1 - npm install
-#2 - Configurar el archivo models/index.js:
+##1 - npm install
+##2 - Configurar el archivo models/index.js:
 ```
 const sequelize = new Sequelize('movies_db', user, pass, {
   dialect: 'mysql',
